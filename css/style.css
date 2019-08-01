@@ -448,7 +448,7 @@ hr {
     background-color: #fff;
 }
 
-.stati_title {
+.statti_header span {
     font-size: 14px;
     text-transform: uppercase;
 
@@ -467,7 +467,7 @@ hr {
 
 
 
-.stati_img {
+.statti_header img {
     position: absolute;
     top: 50%;
     left: 2%;   
