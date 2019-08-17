@@ -1037,6 +1037,8 @@ hr {
 
     .nav_link:after {
         margin-top: 0;
+        left: 0;
+
     }
     
     .slider_item span p {
@@ -1205,6 +1207,7 @@ hr {
     }
     .section_suptitle {
         font-size: 15px;
+        margin-bottom: 30px;
     }
 
     .section_header {
