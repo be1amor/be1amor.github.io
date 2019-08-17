@@ -14,31 +14,30 @@
 
 <body>
 
-    <div class="bgheader" id="myHeaderBg">
+    <div class="bgheader" >
 
-        <header class="header" id="myHeader">
+        <header class="header" id="header">
             <div class="container">
                 <div class="header_inner" >
                     <div class="header_logo">MoGo</div>
 
-                    <nav class="nav">
-                        <a class="nav_link" href="#">About</a>
-                        <a class="nav_link" href="#">Service</a>
-                        <a class="nav_link" href="#">Blog</a>
-                        <a class="nav_link" href="#">Work</a>
-                        <a class="nav_link" href="#">Contact</a>
+                    <nav class="nav" id="nav">
+                        <a class="nav_link" href="#" data-scroll="#about">About</a>
+                        <a class="nav_link" href="#" data-scroll="#services">Service</a>
+                        <a class="nav_link" href="#" data-scroll="#blog">Blog</a>
+                        <a class="nav_link" href="#" data-scroll="#works">Work</a>
+                        <a class="nav_link" href="#" data-scroll="#footer">Contact</a>
                     </nav>
 
-                    <button class="nav_mob">
-                        <span></span>
-
+                    <button class="nav-toggle" id="nav_toggle" type="button">
+                        <span class="nav-toggle__item">Menu</span>
                     </button>
 
                 </div>
             </div>
         </header>
 
-        <div class="intro">
+        <div class="intro" id="intro">
             <div class="container">
                 <div class="intro_inner">
 
@@ -59,7 +58,7 @@
         </div>
     </div>
     <div class="main">
-        <section class="aboutus" id="AboutAs">
+        <section class="aboutus" id="about">
             <div class="container">
                 
 
@@ -145,7 +144,7 @@
             </div>
         </div>
 
-        <section class="servis">
+        <section class="servis" id="services">
             <div class="container">
                 
                     <div class="section_header">
@@ -505,7 +504,7 @@
 
     </div>
 
-    <section class="work">
+    <section class="work" id="works">
         <div class="container">
             
                 <div class="section_header">
@@ -690,7 +689,7 @@
             </div>
         </section>
 
-        <section class="posts">
+        <section class="posts" id="blog">
             <div class="container">
                 
                     <div class="section_header">
@@ -786,7 +785,7 @@
         </div>
     </div>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer_iner">
                 <div class="footer_col">
@@ -844,6 +843,9 @@
         </div>
     </footer>
 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/main.js"></script>
 
 
